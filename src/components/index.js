@@ -1,15 +1,20 @@
 import React from "react";
-import Navbar from "./Navbar/navbar";
-import Main from "./Main/index";
+import styled from '@emotion/styled';
 
 const Index = () => {
     return (
-        <div>
-            <Navbar />
+        <Style>
 
-        </div>
+        </Style>
     )
 }
+
+const Style = styled.div`
+display: flex; 
+background-color: red;
+color: white; 
+`;
+
 
 
 export default Index;

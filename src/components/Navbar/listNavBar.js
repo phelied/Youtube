@@ -6,7 +6,9 @@ const ListNavBar = () => {
 
     
     return (
-        <div></div>
+        <div>
+            ListNavBar
+        </div>
     )
 }
 
