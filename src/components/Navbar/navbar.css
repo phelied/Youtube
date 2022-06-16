@@ -6,7 +6,7 @@
   z-index: 1; /* Stay on top */
   top: 0; /* Stay at the top */
   left: 0;
-  background-color: #111; /* Black*/
+  background-color: #101010; /* Black*/
   overflow-x: hidden; /* Disable horizontal scroll */
   padding-top: 60px; /* Place content 60px from the top */
   transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
@@ -41,7 +41,25 @@
   padding: 20px;
 }
 
-/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+.sidebar_sub_categories ul {
+  list-style-type: none;
+}
+
+li > img {
+  height: 35px;
+}
+
+.sidebar_categories {
+  padding: 20px;
+}
+
+.sidebar_sub_categories li {
+  padding-top: 30px;
+}
+
+.sidebar_sub_categories li > span {
+  color: #ababab;
+}
 
 @media screen and (min-width: 768px) {
   .sidenav {
