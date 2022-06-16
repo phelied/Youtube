@@ -1,7 +1,7 @@
-import React from "react";
+import React, { useState } from "react";
 import Search from "./search";
 import ListNavBar from "./listNavBar";
-import './navbar.css';
+import './navbar.css';  
 
 const openNav = () => {
     document.getElementById("mySidenav").style.width = "100%";
@@ -12,13 +12,14 @@ const closeNav = () => {
 }
 
 const Navbar = () => {
+    const [sideBar, setSideBar] = useState(false)
 
     return (
         <div>
-            <div id="mySidenav" class="sidenav">
-                <a href="javascript:void(0)" class="closebtn" onClick={closeNav}>&times;</a>
+            <div id="mySidenav" className="sidenav">
+                <a href="#" className="closebtn" onClick={closeNav}>&times;</a>
                 <a href="#">About</a>
-                <a href="#">Services</a>
+                <a href="#">Services</a>             
                 <a href="#">Clients</a>
                 <a href="#">Contact</a>
             </div>
