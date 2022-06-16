@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Search from "./search";
 import ListNavBar from "./listNavBar";
-import './navbar.css';  
+import './navbar.css';
 
 const openNav = () => {
     document.getElementById("mySidenav").style.width = "100%";
@@ -18,10 +18,54 @@ const Navbar = () => {
         <div>
             <div id="mySidenav" className="sidenav">
                 <a href="#" className="closebtn" onClick={closeNav}>&times;</a>
-                <a href="#">About</a>
-                <a href="#">Services</a>             
-                <a href="#">Clients</a>
-                <a href="#">Contact</a>
+                <div className="Menu">
+                    <div className="">
+                        <span>Menu</span>
+                        <ul>
+                            <li>
+                                <img src="https://img.icons8.com/fluency-systems-regular/48/undefined/home.png" />
+                                <span>Home</span>
+                            </li>
+                            <li>
+                                <img src="https://img.icons8.com/fluency-systems-regular/48/undefined/home.png" />
+                                <span>Discover</span>
+                            </li>
+                            <li>
+                                <img src="https://img.icons8.com/fluency-systems-regular/48/undefined/home.png" />
+                                <span>Likes</span>
+                            </li>
+                            <li>
+                                <img src="https://img.icons8.com/fluency-systems-regular/48/undefined/home.png" />
+                                <span>Podcast</span>
+                            </li>
+                            <li>
+                                <img src="https://img.icons8.com/fluency-systems-regular/48/undefined/home.png" />
+                                <span>Radio</span>
+                            </li>
+                            <li>
+                                <img src="https://img.icons8.com/fluency-systems-regular/48/undefined/home.png" />
+                                <span>Profile</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div className="Collection">
+                    <div className="">
+                        <span>Collection</span>
+                        <li>
+                            <img src="https://img.icons8.com/fluency-systems-regular/48/undefined/home.png" />
+                            <span>Favorite Songs</span>
+                        </li>
+                        <li>
+                            <img src="https://img.icons8.com/fluency-systems-regular/48/undefined/home.png" />
+                            <span>Artists</span>
+                        </li>
+                        <li>
+                            <img src="https://img.icons8.com/fluency-systems-regular/48/undefined/home.png" />
+                            <span>Albums</span>
+                        </li>
+                    </div>
+                </div>
             </div>
             <span onClick={openNav}>&#9776; open</span>
             <div id="main">

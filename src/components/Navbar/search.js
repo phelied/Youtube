@@ -10,8 +10,8 @@ const Search = () => {
 }
 
 export const op = css`
-padding: 10px; 
-background-color: red; 
+padding: 10px;
+background-color: red;
 `;
 
 export default Search;
