@@ -51,7 +51,6 @@ li > img {
 
 .sidebar_categories {
   padding: 0 20px;
-  border: 2px red solid;
 }
 
 .sidebar_sub_categories li {
@@ -81,12 +80,23 @@ li > img {
   width: 8px;
 }
 
+.sidebar_search * {
+  background-color: #1d1d1d;
+}
+
 .sidebar_search{
   display: flex;
   background-color: #1d1d1d;
   width: 100%;
   padding: 12px 10px;
   border-radius: 5px;
+}
+
+.sidebar_search > span{
+  display: flex;
+  align-items: center;
+  margin-left: 15px;
+  color: #ababab;
 }
 
 .title_sub_categories {

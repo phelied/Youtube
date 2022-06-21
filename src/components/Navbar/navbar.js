@@ -26,7 +26,7 @@ const Navbar = () => {
                         </div>
                         <div className="sidebar_search">
                             <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAABmJLR0QA/wD/AP+gvaeTAAACwUlEQVRIie2Vv28URxTHP2/YcQpXV8BJAUUIUfiOuIH8AZgfSclxlsZyiwtEE0tIiCjVVghkIQqqE7i+25VibKpIxFHSgQQNMjo3gIiiEDmlG4PNflN4L3LQ6W7XYCq+zbzZee99djTz5sFnfSLZMIc0TUckNYAGcBw4lC/9KemJmS2Z2WII4e1HA3c6nSYwZ2ZHhuR5bmZXQgj3Pggcx7EbGxu7bmZXAMzsqaR5M/tlY2PjFUAURYejKDojaQYYz0NvdLvdH+M4zoaBo34fd0DfSJrtdrt3+iR7BjyL4/h2vV6/KOkWcLVWqwH8UHrHnU6naWY/AW/M7LsQwu/DkgC02+2TzrmfgS+A81NTU4uD/N3OSZqmI8AcgKTZolCA6enp3yRdzqdzrVbLFwZLapjZETN7urq6eqco9L9kzrWAFeBopVI5VxgMnAfIsuxukQvyvkII7yTNw/YmyoCPAzjnlstCe8qy7EFuflMG/GU+/rFb8OjoaC/2YBnwB2t9fX3oa9gP/Fc+frVbcBRFvdi/C4MlPc7Ns7sFO+e+zc2HhcFmtpT/wEwcx6WPIU3TfVmWXchz3C8DXgSeA+P1ev1iWTBwycyOSXpRrVYHNoz/gUMIb3uNQdKtdrt9sigxSZIJSTfz6ezExMTWIP++NzBJkuvAVbabxGXnXCuE8K6fb5qm+4BLOXQEWPPejzebzbXS4DiOXa1Wu5bDAVYkzWdZ9iCKolcAWZYdNrOzkmbM7FjutwYcAFa896cHwQfWXJIkDbabxtFBfsBLSd875x5J+hX4ehh8aLG3Wi1fqVTOSWpIOmFmh/K418BDSfer1eq93pkuLCwc2NzcXB4GL/TKlFWapvslLQPjkla996cmJydf7zm4CPyjv9U9hRD+8d6fAVbMbGxra2tp5/qegQGazeaa9/408AToW46ftef6FxySIClkh//OAAAAAElFTkSuQmCC" />
-                            <div className="sidebar_search_text">Search</div>
+                            <span>Search</span>
                         </div>
                     </div>
                     <div className="sidebar_sub_categories">
