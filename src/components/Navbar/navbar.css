@@ -50,15 +50,30 @@ li > img {
 }
 
 .sidebar_categories {
-  padding: 20px;
+  padding: 0 20px;
 }
 
 .sidebar_sub_categories li {
-  padding-top: 30px;
+  padding: 10px 0px;
+  display: flex;
+  align-items: center;
 }
 
 .sidebar_sub_categories li > span {
   color: #ababab;
+  padding: 15px;
+}
+
+.sidebar_sub_categories li:first-child {
+  padding-top: 25px;
+}
+
+.sidebar_sub_categories > span {
+  font-size: 20px;
+}
+
+.title_sub_categories{
+  margin-top: 30px;
 }
 
 @media screen and (min-width: 768px) {

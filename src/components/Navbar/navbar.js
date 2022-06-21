@@ -18,7 +18,9 @@ const Navbar = () => {
                 <a href="#" className="closebtn" onClick={closeNav}>&times;</a>
                 <div className="sidebar_categories">
                     <div className="sidebar_sub_categories">
-                        <span>Menu</span>
+                        <div className="title_sub_categories">
+                            <span>Menu</span>
+                        </div>
                         <ul>
                             <li>
                                 <img alt="home-icon" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABmJLR0QA/wD/AP+gvaeTAAABwElEQVRYhe2Wz0obURjFz+kNJOJ0Ke5cVjEBu+gj1OImSCbJdeNGoS7durFQSl+gm+4krkq4NwpZFLSLkgdQgmKhIugrdBFFApmvGwPWGc2dSVI3c3bz3fud84M79w+QaggZY2br9fqrYTxeDBG+QfJUKfXLWruV1IdxG2q1Ws7zvK8A1v4xIr9ls9n3xWLxZmwAxpgZknsA3kSNi8iJUsovl8uXrp7OS2CMWSLZfiwcAEguBEHQttYuu/qqQRNEhIVCYYvkDoBJB88sgBWt9UQ+n//ZarXkqclPLkGz2XzZ7XZ3AfgOwVH6nslkVkul0p/YAMaYWZL7AOYThvd1oZTyfd8/cwa4W28LwBsyvK+OiFS11gcDARqNxpyItAHkRhTe162IvNZan98vhnaBiGyPIRwAciS3HxajtuHiGML7eusCMDVGgGkXgNjHcwyFvBNfRqNSCpBJ2NcD8ANA5+7bA/AODnfLqAA+VqvVz/cL1toPAD7FNUq6BOcRtd9JjJ79H0gBUoAogKtBTSISevWSHNgHINQXOgdIlgFsikjUA7QnIoda6+OHA5VK5chau45HDiSS10EQfHGATPV/9RdsAXpcxKoyHQAAAABJRU5ErkJggg==" />
@@ -47,7 +49,9 @@ const Navbar = () => {
                         </ul>
                     </div>
                     <div className="sidebar_sub_categories">
-                        <span>Collection</span>
+                        <div className="title_sub_categories">
+                            <span>Collection</span>
+                        </div>
                         <ul>
                             <li>
                                 <img alt="favorite-songs-icon" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAABmJLR0QA/wD/AP+gvaeTAAAB5ElEQVRIie3VQWsTQRTA8f/b5CoeRP0aHnoQ0ZKLBz1usgPmGwitNaigUjQXQfCgFG+CRUGQzSR6KfRYBK0Inmq+hJqCGAhxyTwPJpKknU3SZi+l7zb73r7fvF2YgeM46iG+RK1WuwAsAYvAaeA7sKWqz4wxX4drrbULqnoTKAxqReSDc+65MWZ7KjiO45yIPAWWPXtywONSqbTaRx8Bdz1DqIisOeduGWN6w4n8np2kowABcN9ae0JEhH9fxReiqisiokBlJDG8qNfr551znzy7P1QEQXCxWCx+/L8eTjrnVrJA+72vj2xkLH8pCxRARBbT4DNZwap6Ng3+nRU83nscbmYIf/PCqvo+Q3ik9wicz+dfAd0M0D+q+sYLh2HYAl5nAK8bY354YYBcLncPaM0R3U2SZHX84R64P/WdOcKVcrn8cyIMEEXROvByDuiLKIr2/XX7wgCquqSqnw+Bbrfb7Ru+ZOq5HMfxSRHZAs7NiO6oasEYs+sr8E4MYIz5FQTBVWY7WHaSJLmchsKUN1Gj0TjV6/U2gYUJpV9U9cokFCZMPIgwDFudTqcAvEsp2+h2uxMnHcRMd6+qirX2IfBg7N21ZrNZqVarbtpeB7r0rbXXVPVJf3k7iqK3B+lzHEc7/gLWeK2Za07oMwAAAABJRU5ErkJggg==" />
