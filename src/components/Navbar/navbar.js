@@ -1,18 +1,34 @@
 import React, { useState } from "react";
 import './navbar.css';
+import logo from '../../img/YouTube_Music_short_logo.png';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCoffee } from '@fortawesome/free-solid-svg-icons'
+
+
 
 const Navbar = () => {
-    const [sideBar, setSideBar] = useState(false)
+    const [sideBar, setSideBar] = useState(false);
+    const [] = useState()
 
     const stateSideBar = () => {
         setSideBar(current => !current);
-      };
+    };
 
     return (
         <div>
-            <div id="mySidenav" className="sidenav" style={{width: sideBar ? '100%' : '0'}}>
+            <div id="mySidenav" className="sidenav" style={{ width: sideBar ? '100%' : '0' }}>
                 <a href="#" className="closebtn" onClick={stateSideBar}>&times;</a>
                 <div className="sidebar_categories">
+                    <div className="sidebar_header">
+                        <div className="sidebar_logo">
+                            <img src={logo} alt='youtube logo' />
+                            <span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 512"><path fill='#fff' d="M64 360C94.93 360 120 385.1 120 416C120 446.9 94.93 472 64 472C33.07 472 8 446.9 8 416C8 385.1 33.07 360 64 360zM64 200C94.93 200 120 225.1 120 256C120 286.9 94.93 312 64 312C33.07 312 8 286.9 8 256C8 225.1 33.07 200 64 200zM64 152C33.07 152 8 126.9 8 96C8 65.07 33.07 40 64 40C94.93 40 120 65.07 120 96C120 126.9 94.93 152 64 152z" /></svg></span>
+                        </div>
+                        <div className="sidebar_search">
+                            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAABmJLR0QA/wD/AP+gvaeTAAACwUlEQVRIie2Vv28URxTHP2/YcQpXV8BJAUUIUfiOuIH8AZgfSclxlsZyiwtEE0tIiCjVVghkIQqqE7i+25VibKpIxFHSgQQNMjo3gIiiEDmlG4PNflN4L3LQ6W7XYCq+zbzZee99djTz5sFnfSLZMIc0TUckNYAGcBw4lC/9KemJmS2Z2WII4e1HA3c6nSYwZ2ZHhuR5bmZXQgj3Pggcx7EbGxu7bmZXAMzsqaR5M/tlY2PjFUAURYejKDojaQYYz0NvdLvdH+M4zoaBo34fd0DfSJrtdrt3+iR7BjyL4/h2vV6/KOkWcLVWqwH8UHrHnU6naWY/AW/M7LsQwu/DkgC02+2TzrmfgS+A81NTU4uD/N3OSZqmI8AcgKTZolCA6enp3yRdzqdzrVbLFwZLapjZETN7urq6eqco9L9kzrWAFeBopVI5VxgMnAfIsuxukQvyvkII7yTNw/YmyoCPAzjnlstCe8qy7EFuflMG/GU+/rFb8OjoaC/2YBnwB2t9fX3oa9gP/Fc+frVbcBRFvdi/C4MlPc7Ns7sFO+e+zc2HhcFmtpT/wEwcx6WPIU3TfVmWXchz3C8DXgSeA+P1ev1iWTBwycyOSXpRrVYHNoz/gUMIb3uNQdKtdrt9sigxSZIJSTfz6ezExMTWIP++NzBJkuvAVbabxGXnXCuE8K6fb5qm+4BLOXQEWPPejzebzbXS4DiOXa1Wu5bDAVYkzWdZ9iCKolcAWZYdNrOzkmbM7FjutwYcAFa896cHwQfWXJIkDbabxtFBfsBLSd875x5J+hX4ehh8aLG3Wi1fqVTOSWpIOmFmh/K418BDSfer1eq93pkuLCwc2NzcXB4GL/TKlFWapvslLQPjkla996cmJydf7zm4CPyjv9U9hRD+8d6fAVbMbGxra2tp5/qegQGazeaa9/408AToW46ftef6FxySIClkh//OAAAAAElFTkSuQmCC" />
+                            <div className="sidebar_search_text">Search</div>
+                        </div>
+                    </div>
                     <div className="sidebar_sub_categories">
                         <div className="title_sub_categories">
                             <span>Menu</span>
@@ -65,7 +81,9 @@ const Navbar = () => {
                     </div>
                 </div>
             </div>
-            <span onClick={stateSideBar}>&#9776; open</span>
+            <div className="toggle">
+                <span onClick={stateSideBar}>&#9776;</span>
+            </div>
             <div id="main">
                 <h2>Sidenav Push Example</h2>
             </div>
