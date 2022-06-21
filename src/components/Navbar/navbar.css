@@ -6,7 +6,7 @@
   z-index: 1; /* Stay on top */
   top: 0; /* Stay at the top */
   left: 0;
-  background-color: #111; /* Black*/
+  background-color: #101010; /* Black*/
   overflow-x: hidden; /* Disable horizontal scroll */
   padding-top: 60px; /* Place content 60px from the top */
   transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
@@ -41,17 +41,135 @@
   padding: 20px;
 }
 
-/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+.sidebar_sub_categories ul {
+  list-style-type: none;
+}
+
+li > img {
+  height: 35px;
+}
+
+.sidebar_categories {
+  padding: 0 20px;
+}
+
+.sidebar_sub_categories li {
+  padding: 10px 0px;
+  display: flex;
+  align-items: center;
+}
+
+.sidebar_header {
+  display: none;
+}
+
+.sidebar_sub_categories li > span {
+  color: #ababab;
+  padding: 15px;
+}
+
+.title_sub_categories {
+  margin: 25px 0;
+  font-size: 20px;
+}
+
+.toggle {
+  margin: 10px 15px;
+  font-size: 25px;
+}
+
+.sidebar_account_info img {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+}
+
+.sidebar_account_container {
+  border-top: 1px #565656 solid;
+  margin-top: 20px;
+}
+
+.sidebar_account > span{
+  font-weight: 700;
+}
+
+.sidebar_account {
+  margin: 30px 0;
+}
+
+.sidebar_account_info_container,
+.sidebar_account_info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 15px 0;
+}
+
+.sidebar_account_info span{
+  margin: 0 15px;
+}
 
 @media screen and (min-width: 768px) {
+
+  .sidebar_header {
+    display: block;
+  }
+  .sidebar_logo img {
+    width: 156px;
+    height: 40px;
+  }
+  
+  .sidebar_logo {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+  }
+  
+  .sidebar_logo span {
+    margin: 4px;
+    width: 8px;
+  }
+  
+  .sidebar_search * {
+    background-color: #1d1d1d;
+  }
+  
+  .sidebar_search {
+    display: flex;
+    background-color: #1d1d1d;
+    width: 100%;
+    padding: 12px 10px;
+    border-radius: 5px;
+  }
+  
+  .sidebar_search > span {
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+    color: #ababab;
+  }
+
   .sidenav {
     padding-top: 15px;
   }
   .sidenav a {
     font-size: 18px;
   }
-  * {
-    border: 2px red solid;
+
+  .sidebar_logo img {
+    width: 120px;
+    height: 50px;
+  }
+
+  .sidebar_logo {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+  }
+
+  .sidebar_logo span {
+    margin: 10px;
+    width: 8px;
   }
 }
 
