@@ -1,21 +1,17 @@
 import React, { useState } from "react";
 import './navbar.css';
 
-const openNav = () => {
-    document.getElementById("mySidenav").style.width = "100%";
-}
-/* Set the width of the side navigation to 0 and the left margin of the page content to 0, and the background color of body to white */
-const closeNav = () => {
-    document.getElementById("mySidenav").style.width = "0";
-}
-
 const Navbar = () => {
     const [sideBar, setSideBar] = useState(false)
 
+    const stateSideBar = () => {
+        setSideBar(current => !current);
+      };
+
     return (
         <div>
-            <div id="mySidenav" className="sidenav">
-                <a href="#" className="closebtn" onClick={closeNav}>&times;</a>
+            <div id="mySidenav" className="sidenav" style={{width: sideBar ? '100%' : '0'}}>
+                <a href="#" className="closebtn" onClick={stateSideBar}>&times;</a>
                 <div className="sidebar_categories">
                     <div className="sidebar_sub_categories">
                         <div className="title_sub_categories">
@@ -69,7 +65,7 @@ const Navbar = () => {
                     </div>
                 </div>
             </div>
-            <span onClick={openNav}>&#9776; open</span>
+            <span onClick={stateSideBar}>&#9776; open</span>
             <div id="main">
                 <h2>Sidenav Push Example</h2>
             </div>
