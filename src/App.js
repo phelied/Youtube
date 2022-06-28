@@ -2,7 +2,7 @@
 import React from "react";
 import './App.css';
 import Navbar from "./components/Navbar/navbar";
-import Main from "./components/Main/index";
+import Main from "./components/index";
 
 function App() {
 	return (
