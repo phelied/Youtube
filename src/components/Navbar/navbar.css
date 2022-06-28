@@ -74,8 +74,14 @@ li > img {
 }
 
 .toggle {
+  display: flex;
+  justify-content: flex-end;
   margin: 10px 15px;
   font-size: 25px;
+}
+
+.toggle span {
+  margin-right: 20px;
 }
 
 .sidebar_account_info img {
@@ -89,7 +95,7 @@ li > img {
   margin-top: 20px;
 }
 
-.sidebar_account > span{
+.sidebar_account > span {
   font-weight: 700;
 }
 
@@ -105,12 +111,11 @@ li > img {
   margin: 15px 0;
 }
 
-.sidebar_account_info span{
+.sidebar_account_info span {
   margin: 0 15px;
 }
 
 @media screen and (min-width: 768px) {
-
   .sidebar_header {
     display: block;
   }
@@ -118,22 +123,22 @@ li > img {
     width: 156px;
     height: 40px;
   }
-  
+
   .sidebar_logo {
     display: flex;
     justify-content: space-between;
     padding: 20px 0;
   }
-  
+
   .sidebar_logo span {
     margin: 4px;
     width: 8px;
   }
-  
+
   .sidebar_search * {
     background-color: #1d1d1d;
   }
-  
+
   .sidebar_search {
     display: flex;
     background-color: #1d1d1d;
@@ -141,7 +146,7 @@ li > img {
     padding: 12px 10px;
     border-radius: 5px;
   }
-  
+
   .sidebar_search > span {
     display: flex;
     align-items: center;
@@ -152,10 +157,13 @@ li > img {
   .sidenav {
     padding-top: 15px;
   }
+
   .sidenav a {
     font-size: 18px;
   }
-
+  .sidenav .closebtn {
+    display: none;
+  }
   .sidebar_logo img {
     width: 120px;
     height: 50px;
