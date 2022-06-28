@@ -12,7 +12,7 @@ const Navbar = () => {
     };
 
     return (
-        <div>
+        <>
             <div id="mySidenav" className="sidenav" style={{ width: sideBar ? '100%' : '0' }}>
                 <a href="#" className="closebtn" onClick={stateSideBar}>&times;</a>
                 <div className="sidebar_categories">
@@ -93,10 +93,7 @@ const Navbar = () => {
             <div className="toggle">
                 <span onClick={stateSideBar}>&#9776;</span>
             </div>
-            <div id="main">
-                <h2>Sidenav Push Example</h2>
-            </div>
-        </div>
+        </>
     )
 }
 
