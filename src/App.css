@@ -5,3 +5,43 @@
   color: white;
   background-color: #101010;
 }
+
+.container__information-text {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  top: 150px;
+  left: 16px;
+}
+
+.container__img {
+  margin: 15px 15px;
+}
+.container__img-size {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.img__picture {
+  width: 100%;
+  height: 250px;
+  border-radius: 5px;
+}
+
+.container__information-text,
+.span__artist-text,
+.span__artistname-text {
+  background-color: transparent;
+}
+
+.span__artist-text {
+  text-align: left;
+  font-size: 20px;
+}
+
+.span__artistname-text {
+  font-size: 40px;
+  font-weight: 800;
+  margin-top: 10px;
+}

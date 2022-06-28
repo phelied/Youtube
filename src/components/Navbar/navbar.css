@@ -31,7 +31,7 @@
 .sidenav .closebtn {
   position: absolute;
   top: 0;
-  right: 25px;
+  right: 10px;
   font-size: 36px;
   margin-left: 50px;
 }
@@ -78,10 +78,6 @@ li > img {
   justify-content: flex-end;
   margin: 10px 15px;
   font-size: 25px;
-}
-
-.toggle span {
-  margin-right: 20px;
 }
 
 .sidebar_account_info img {
