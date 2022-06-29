@@ -1,0 +1,51 @@
+[{
+  "id": 0,
+  "duration": "2:37",
+  "viewers": 138,
+  "title": "烟雨行舟",
+  "artist": "伦桑",
+  "album": "烟雨行舟",
+  "lyric": "https://ying-king.github.io/data-mock/ying-music/lyric_烟雨行舟.json",
+  "url": "https://ying-king.github.io/data-mock/ying-music/烟雨行舟.mp3"
+},
+{
+  "id": 1,
+  "duration": "2:37",
+  "viewers": 138,
+  "title": "水星记",
+  "artist": "郭顶",
+  "album": "飞行器的执行周期",
+  "lyric": "https://ying-king.github.io/data-mock/ying-music/lyric_水星记.json",
+  "url": "https://ying-king.github.io/data-mock/ying-music/水星记.mp3"
+},
+{
+  "id": 2,
+  "duration": "2:37",
+  "viewers": 138,
+  "title": "后来的我们",
+  "artist": "五月天",
+  "album": "后来的我们",
+  "lyric": "https://ying-king.github.io/data-mock/ying-music/lyric_后来的我们.json",
+  "url": "https://ying-king.github.io/data-mock/ying-music/后来的我们.mp3"
+},
+{
+  "id": 3,
+  "duration": "2:37",
+  "viewers": 138,
+  "title": "假装",
+  "artist": "陈雪凝",
+  "album": "拾陆",
+  "lyric": "https://ying-king.github.io/data-mock/ying-music/lyric_假装.json",
+  "url": "https://ying-king.github.io/data-mock/ying-music/假装.mp3"
+},
+{
+  "id": 4,
+  "duration": "2:37",
+  "viewers": 138,
+  "title": "烦恼歌",
+  "artist": "张学友",
+  "album": "在你身边",
+  "lyric": "https://ying-king.github.io/data-mock/ying-music/lyric_烦恼歌.json",
+  "url": "https://ying-king.github.io/data-mock/ying-music/烦恼歌.mp3"
+}
+]

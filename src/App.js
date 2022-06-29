@@ -1,9 +1,9 @@
 
 import React from "react";
 import './App.css';
-import Navbar from "./components/Navbar/navbar";
-import ListArtists from "./components/ListArtists/listartists";
-import ListSongs from "./components/ListSongs/listsongs";
+import Navbar from "./components/navbar";
+import ListArtists from "./components/listartists";
+import ListSongs from "./components/listsongs";
 import picture from "./img/kanye_1.jpg";
 
 function App() {

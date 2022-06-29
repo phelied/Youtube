@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import './navbar.css';
-import logo from '../../img/YouTube_Music_short_logo.png';
-import profile from '../../img/profile.jpeg';
+import '../styles/navbar.css';
+import logo from '../img/YouTube_Music_short_logo.png';
+import profile from '../img/profile.jpeg';
 
 const Navbar = () => {
     const [sideBar, setSideBar] = useState(false);
