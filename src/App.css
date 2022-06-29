@@ -29,21 +29,9 @@
   border-radius: 5px;
 }
 
-.container__information-text,
-.span__artist-text,
-.span__artistname-text {
-  background-color: transparent;
-}
-
 .span__artist-text {
   text-align: left;
   font-size: 20px;
-}
-
-.span__artistname-text {
-  font-size: 40px;
-  font-weight: 800;
-  margin-top: 10px;
 }
 
 @media screen and (min-width: 768px) {

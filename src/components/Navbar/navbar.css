@@ -74,10 +74,32 @@ li > img {
 }
 
 .toggle {
-  display: flex;
-  justify-content: flex-end;
-  margin: 10px 15px;
+  margin: 8px 15px;
   font-size: 25px;
+  border-bottom: 1px rgb(86, 86, 86) solid;
+  padding-bottom: 7px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.span__text-size {
+  font-size: 35px;
+  font-weight: 600;
+}
+
+.span__text-platform-size {
+  font-size: 10px;
+  font-weight: 700;
+  color: #ababab;
+}
+
+.span__information-text-size {
+  font-weight: 400;
+  margin-top: 4px;
+}
+
+.container__information-display-M {
+  margin: 0px 15px;
 }
 
 .sidebar_account_info img {
@@ -109,6 +131,10 @@ li > img {
 
 .sidebar_account_info span {
   margin: 0 15px;
+}
+
+.container__navbar-display-M {
+  display: none;
 }
 
 @media screen and (min-width: 768px) {

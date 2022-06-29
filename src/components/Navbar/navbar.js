@@ -90,6 +90,14 @@ const Navbar = () => {
                 </div>
             </div>
             <div className="toggle">
+                <span className="span__text-size">Explorer</span>
+                <span onClick={stateSideBar}>&#9776;</span>
+            </div>
+            <div className="container__information-display-M">
+                <span className="span__text-platform-size">YOUTUBE LIVE</span>
+                <p className="span__information-text-size">Vivez le concert de Kanye West en direct à Los Angeles le 30 juin.</p>
+            </div>
+            <div className="container__navbar-display-M">
                 <span onClick={stateSideBar}>&#9776;</span>
             </div>
         </>
