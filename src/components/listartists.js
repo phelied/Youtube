@@ -6,7 +6,19 @@ const ListArtists = () => {
 
     return (
         <>
-            {console.log(mocks)}
+            <div className="container__list-artist-block">
+                {mocks.slice(0, 4).map((data) => (
+                    <div className="container__specific-artist-block">
+                        <img alt='artist cover' src="" />
+                        <div className="container__specific-songs-justify">
+                            <span className="span__id-song-size">{data.artist}</span>
+                            <span className="span__title-song-size">{data.number}</span>
+                        </div>
+                        <span className="span__title-song-size">{data.title}</span>
+                    </div>
+                ))}
+
+            </div>
         </>
     )
 }

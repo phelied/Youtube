@@ -1,0 +1,19 @@
+@media screen and (min-width: 768px) {
+  .container__specific-songs-block {
+    display: grid;
+    grid-template-columns: 9fr 2fr;
+    grid-column-gap: 30px;
+    padding: 10px 0;
+  }
+
+  .container__specific-songs-justify {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .container__specific-songs-justify img{
+    width: 82px;
+    height: 82px;
+  }
+}
