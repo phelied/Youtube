@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import '../styles/navbar.css';
 import logo from '../img/YouTube_Music_short_logo.png';
 import profile from '../img/profile.jpeg';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faEllipsisVertical } from '@fortawesome/free-solid-svg-icons'
 
 const Navbar = () => {
     const [sideBar, setSideBar] = useState(false);
@@ -91,7 +93,7 @@ const Navbar = () => {
             </div>
             <div className="toggle">
                 <span className="span__text-size">Explorer</span>
-                <span onClick={stateSideBar}>&#9776;</span>
+                <span onClick={stateSideBar}><FontAwesomeIcon icon={faEllipsisVertical} /></span>
             </div>
             <div className="container__information-display-M">
                 <span className="span__text-platform-size">YOUTUBE LIVE</span>

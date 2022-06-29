@@ -8,7 +8,7 @@ const ListArtists = () => {
         <>
             <div className="container__list-artist-block">
                 {mocks.slice(0, 4).map((data) => (
-                    <div className="container__specific-artist-block">
+                    <div key={data.id} className="container__specific-artist-block">
                         <img alt='artist cover' src="" />
                         <div className="container__specific-songs-justify">
                             <span className="span__id-song-size">{data.artist}</span>

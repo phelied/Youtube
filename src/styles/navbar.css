@@ -133,13 +133,13 @@ li > img {
   display: none;
 }
 
+.toggle span:last-child{
+align-self: center;
+}
+
 @media screen and (min-width: 768px) {
   .sidebar_header {
     display: block;
-  }
-  .sidebar_logo img {
-    width: 156px;
-    height: 40px;
   }
 
   .sidebar_logo {
@@ -183,8 +183,8 @@ li > img {
     display: none;
   }
   .sidebar_logo img {
-    width: 120px;
-    height: 50px;
+    width: 110px;
+    height: 45px;
   }
 
   .sidebar_logo {
