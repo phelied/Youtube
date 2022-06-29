@@ -2,6 +2,8 @@
 import React from "react";
 import './App.css';
 import Navbar from "./components/Navbar/navbar";
+import ListArtists from "./components/ListArtists/listartists";
+import ListSongs from "./components/ListSongs/listsongs";
 import picture from "./img/kanye_1.jpg";
 
 function App() {
@@ -19,8 +21,23 @@ function App() {
 				</div>
 				<div className="container__proposing-song-display">
 					<div className="container__popular-song-display">
+						<div className="container__songs-text-display">
+							<span className="span__popular-text-size" >Popular Songs</span>
+							<span className="span__other-text-size">Show All</span>
+						</div>
+						<div className="container__list-songs-display">
+							<ListSongs />
+						</div>
+
 					</div>
-					<div className="container__other-song-display">
+					<div className="container__other-artists-display">
+						<div className="container__songs-text-display">
+							<span className="span__popular-text-size">Other Artists</span>
+							<span className="span__other-text-size">Show All</span>
+						</div>
+						<div className="container__list-songs-display">
+							<ListArtists />
+						</div>
 					</div>
 				</div>
 			</div>

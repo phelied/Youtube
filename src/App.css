@@ -15,12 +15,15 @@
 }
 
 .container__img {
-  margin: 15px 15px;
+  margin: 15px 0px;
 }
 .container__img-size {
   position: relative;
   text-align: center;
   color: white;
+}
+.container {
+  margin: 0 15px;
 }
 
 .img__picture {
@@ -32,6 +35,21 @@
 .span__artist-text {
   text-align: left;
   font-size: 20px;
+}
+
+.container__songs-text-display {
+  display: flex;
+  justify-content: space-between;
+}
+
+.span__other-text-size {
+color: #ababab;
+font-size: 10px;
+}
+
+.span__popular-text-size {
+  font-size: 16px;
+  font-weight: 600;
 }
 
 @media screen and (min-width: 768px) {
