@@ -5,7 +5,6 @@ import profile from '../../img/profile.jpeg';
 
 const Navbar = () => {
     const [sideBar, setSideBar] = useState(false);
-    const [] = useState()
 
     const stateSideBar = () => {
         setSideBar(current => !current);
@@ -13,7 +12,7 @@ const Navbar = () => {
 
     return (
         <>
-            <div id="mySidenav" className="sidenav" style={{ width: sideBar ? '100%' : '0' }}>
+            <div id="mySidenav" className="sidenav" style={{ display: sideBar ? 'block' : 'none' }}>
                 <a href="#" className="closebtn" onClick={stateSideBar}>&times;</a>
                 <div className="sidebar_categories">
                     <div className="sidebar_header">
