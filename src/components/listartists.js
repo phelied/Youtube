@@ -2,7 +2,7 @@ import React from "react";
 import '../styles/listartists.css';
 import mocks from "../mocks/list-songs-mocks.json";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faEllipsis } from '@fortawesome/free-solid-svg-icons';
+import { faEllipsisVertical } from '@fortawesome/free-solid-svg-icons';
 
 const ListArtists = () => {
 
@@ -14,9 +14,9 @@ const ListArtists = () => {
                         <img alt='artist cover' src={data.pictureArtist} />
                         <div className="container__album-in-songs-justify">
                             <p className="span__artist-song-size">{data.artist}</p>
-                            <p className="span__title-song-size">{data.number} songs</p>
+                            <p className="span__songs-size">{data.number} songs</p>
                         </div>
-                        <span className="span__more-song-size"><FontAwesomeIcon icon={faEllipsis} /></span>
+                        <span className="span__more-song-size"><FontAwesomeIcon icon={faEllipsisVertical} /></span>
                     </div>
                 ))}
 

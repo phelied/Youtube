@@ -3,18 +3,31 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 20px;
   padding: 10px 0;
 }
 
 .container__specific-artist-block img {
-  width: 45px;
+  width: 69px;
   border-radius: 100%;
-  height: 45px;
+  height: 69px;
+}
+
+.container__album-in-songs-justify {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 300px;
+}
+
+.container__album-in-songs-justify > .span__artist-song-size {
+  padding-right: 90px;
+}
+
+.container__album-in-songs-justify > .span__songs-size {
+  padding-right: 30px;
 }
 
 @media screen and (min-width: 768px) {
-
   .container__specific-artist-block img {
     width: 50px;
     border-radius: 100%;
@@ -30,7 +43,7 @@
     display: none;
   }
 
-  .container__album-in-songs-justify > .span__title-song-size {
+  .container__album-in-songs-justify > .span__songs-size {
     margin: 0px;
     max-width: 100%;
   }
@@ -41,5 +54,12 @@
 
   .container__album-in-songs-justify {
     margin-top: 10px;
+    flex-direction: column;
+  }
+
+  .container__specific-artist-block img {
+    width: 45px;
+    border-radius: 100%;
+    height: 45px;
   }
 }

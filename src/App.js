@@ -28,9 +28,6 @@ function App() {
 						<div className="container__list-songs-display">
 							<ListSongs />
 						</div>
-						<div className="container__cover-display">
-							<img alt='cover' src='images/purple.webp' />
-						</div>
 					</div>
 					<div className="container__other-artists-display">
 						<div className="container__songs-text-display">
@@ -40,6 +37,9 @@ function App() {
 						<div className="container__list-songs-display">
 							<ListArtists />
 						</div>
+					</div>
+					<div className="container__cover-display">
+						<img alt='cover' src='images/purple.webp' />
 					</div>
 				</div>
 			</div>

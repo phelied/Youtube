@@ -28,7 +28,6 @@
 }
 .span__title-song-size{
   font-weight: 700;
-  margin-left: 20px;
   max-width: 30px;
 }
 .span__album-song-size{
@@ -43,6 +42,10 @@
   display: grid;
   justify-content: center;
   align-items: center;
+}
+
+.container__other-artists-display {
+  margin-top: 35px;
 }
 
 @media screen and (min-width: 768px) {
