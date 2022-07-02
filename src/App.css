@@ -69,17 +69,22 @@
 
   .container__proposing-song-display {
     display: grid;
-    grid-template-columns: 4fr 2fr;
+    grid-template-columns: 5fr 2fr;
     grid-column-gap: 20px;
+  }
+
+  .container__other-artists-display {
+    grid-column: 2;
   }
 
   .container__cover-display {
     margin-top: 30px;
+    position: absolute;
   }
 
   .container__cover-display img {
-    height: 220px;
-    width: 460px;
+    width: 425px;
+    height: 235px;
     border-radius: 20px;
   }
 }
