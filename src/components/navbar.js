@@ -3,7 +3,7 @@ import '../styles/navbar.css';
 import logo from '../img/YouTube_Music_short_logo.png';
 import profile from '../img/profile.jpeg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faEllipsisVertical } from '@fortawesome/free-solid-svg-icons'
+import { faEllipsis } from '@fortawesome/free-solid-svg-icons'
 
 const Navbar = () => {
     const [sideBar, setSideBar] = useState(false);
@@ -15,7 +15,7 @@ const Navbar = () => {
     return (
         <>
             <div id="mySidenav" className="sidenav" style={{ display: sideBar ? 'block' : 'none' }}>
-                <a href="#" className="closebtn" onClick={stateSideBar}>&times;</a>
+                <button href="#" className="closebtn" onClick={stateSideBar}>&times;</button>
                 <div className="sidebar_categories">
                     <div className="sidebar_header">
                         <div className="sidebar_logo">
@@ -93,7 +93,7 @@ const Navbar = () => {
             </div>
             <div className="toggle">
                 <span className="span__text-size">Explorer</span>
-                <span onClick={stateSideBar}><FontAwesomeIcon icon={faEllipsisVertical} /></span>
+                <span onClick={stateSideBar}><FontAwesomeIcon icon={faEllipsis} /></span>
             </div>
             <div className="container__information-display-M">
                 <span className="span__text-platform-size">YOUTUBE LIVE</span>
