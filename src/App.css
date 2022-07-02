@@ -6,22 +6,10 @@
   background-color: #101010;
 }
 
-.container__information-text {
-  position: absolute;
-  display: flex;
-  flex-direction: column;
-  top: 150px;
-  left: 16px;
-}
-
 .container__img {
   margin: 15px 0px;
 }
-.container__img-size {
-  position: relative;
-  text-align: center;
-  color: white;
-}
+
 .container {
   margin: 0 20px;
 }
@@ -58,10 +46,14 @@
 }
 
 .container__cover-display img {
-  margin: 20px auto;
   width: 100%;
   height: 200px;
   border-radius: 20px;
+  margin-top: 25px;
+}
+
+.container__other-artists-display {
+  margin-top: 30px;
 }
 
 @media screen and (min-width: 768px) {
@@ -83,6 +75,7 @@
 
   .container__other-artists-display {
     grid-column: 2;
+    margin-top: 0px;
   }
 
   .container__cover-display {
@@ -91,8 +84,9 @@
 
   .container__cover-display img {
     width: 100%;
-    height: 250px;
+    height: 13em;
     border-radius: 20px;
+    margin-top: 0px;
   }
 
   .container__popular-song-display {
