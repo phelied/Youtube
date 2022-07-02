@@ -1,0 +1,70 @@
+.container__specific-songs-justify img {
+  width: 69px;
+  height: 69px;
+}
+
+.container__specific-songs-block {
+  display: grid;
+  grid-template-columns: 2fr 2fr 1fr;
+  grid-column-gap: 30px;
+  padding: 7px 0;
+}
+
+.container__specific-songs-justify {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container__list-songs-display {
+  margin-top: 10px;
+}
+.span__id-song-size {
+  display: none;
+}
+
+.span__like-song-size {
+  display: none;
+}
+.span__title-song-size{
+  font-weight: 700;
+  max-width: 30px;
+}
+.span__album-song-size{
+  color:#ababab;
+}
+
+.span__duration-song-size {
+  font-size: 12px;
+}
+
+.span__album-song-size {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.container__other-artists-display {
+  margin-top: 35px;
+}
+
+@media screen and (min-width: 768px) {
+  .container__specific-songs-justify img {
+    width: 60px;
+    height: 60px;
+  }
+
+  .span__id-song-size {
+    display: block;
+    font-weight: 700;
+  }
+
+  .span__like-song-size {
+    display: block;
+  }
+
+  .container__specific-songs-justify img {
+    margin-left: 10px;
+  }
+
+}

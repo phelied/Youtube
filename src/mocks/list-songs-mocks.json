@@ -1,0 +1,61 @@
+[{
+  "id": 0,
+  "pictureAlbum": "/images/albums/cloud.jpg",
+  "pictureArtist": "/images/artists/drake.jpg",
+  "duration": "2:37",
+  "viewers": 138,
+  "title": "Cité",
+  "artist": "Koba la d",
+  "album": "Détail",
+  "number": 128,
+  "url": "https://ying-king.github.io/data-mock/ying-music/烟雨行舟.mp3"
+},
+{
+  "id": 1,
+  "pictureAlbum": "/images/albums/blond.jpg",
+  "pictureArtist": "/images/artists/j-cole.jpg",
+  "duration": "2:37",
+  "viewers": 138,
+  "title": "Woman",
+  "artist": "Doja cat",
+  "album": "Me",
+  "number": 152,
+  "url": "https://ying-king.github.io/data-mock/ying-music/水星记.mp3"
+},
+{
+  "id": 2,
+  "pictureAlbum": "/images/albums/lomepal.jpg",
+  "pictureArtist": "/images/artists/kendrick.jpg",
+  "duration": "2:37",
+  "viewers": 138,
+  "title": "Body Party",
+  "artist": "Ciara",
+  "album": "Me",
+  "number": 152,
+  "url": "https://ying-king.github.io/data-mock/ying-music/后来的我们.mp3"
+},
+{
+  "id": 3,
+  "pictureAlbum": "/images/albums/tyler-the-creator.webp",
+  "pictureArtist": "/images/artists/rihanna.jpg",
+  "duration": "2:37",
+  "viewers": 138,
+  "title": "Crazy in love",
+  "artist": "Beyonce",
+  "album": "Me",
+  "number": 152,
+  "url": "https://ying-king.github.io/data-mock/ying-music/假装.mp3"
+},
+{
+  "id": 4,
+  "pictureAlbum": "/images/albums/cloud.jpg",
+  "pictureArtist": "/images/artists/drake.jpg",
+  "duration": "2:37",
+  "viewers": 138,
+  "title": "Bonda",
+  "artist": "Drake",
+  "album": "Me",
+  "number": 152,
+  "url": "https://ying-king.github.io/data-mock/ying-music/烦恼歌.mp3"
+}
+]
