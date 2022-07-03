@@ -1,6 +1,6 @@
 .container__specific-songs-justify img {
-  width: 69px;
-  height: 69px;
+  width: 61px;
+  height: 61px;
 }
 
 .container__specific-songs-block {
@@ -27,7 +27,7 @@
   display: none;
 }
 .span__title-song-size{
-  font-weight: 700;
+  font-weight: 500;
   max-width: 30px;
 }
 .span__album-song-size{
