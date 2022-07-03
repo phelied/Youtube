@@ -77,7 +77,7 @@ li > img {
 }
 
 .title_sub_categories {
-  margin: 25px 0;
+  margin: 15px 0;
   font-size: 20px;
 }
 
@@ -160,25 +160,6 @@ li > img {
   .sidebar_logo span {
     margin: 4px;
     width: 8px;
-  }
-
-  .sidebar_search * {
-    background-color: #1d1d1d;
-  }
-
-  .sidebar_search {
-    display: flex;
-    background-color: #1d1d1d;
-    width: 100%;
-    padding: 12px 10px;
-    border-radius: 5px;
-  }
-
-  .sidebar_search > span {
-    display: flex;
-    align-items: center;
-    margin-left: 15px;
-    color: #ababab;
   }
 
   .sidenav {

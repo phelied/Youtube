@@ -11,7 +11,10 @@
 }
 
 .container {
-  margin: 0 20px;
+  margin: 0 28px;
+}
+.container__navbar-display {
+  display: none;
 }
 
 .img__picture {
@@ -60,10 +63,62 @@
   .container {
     display: grid;
     grid-template-columns: 4fr 11fr;
+    margin-top: 20px;
   }
 
   .container__navbar-display {
+    display: flex;
+    flex-direction: row;
+    grid-column: 2 / span 15;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .container__arrow-size {
+    display: none;
+  }
+
+  .container__arrow-size svg {
+    width: 42px;
+    height: 25px;
+  }
+
+  .container__search-bar-main-text {
+    display: flex;
+    align-items: center;
+    background-color: #1d1d1d;
+    border-radius: 20px;
     width: 100%;
+    padding: 7px 17px
+  }
+
+  .container__search-bar-main-text > * {
+    background-color: #1d1d1d;
+  }
+
+  .container__search-bar-main-text span {
+    color: #ababab;
+    margin-left: 15px;
+  }
+
+  .container__search-bar-main-text img {
+    width: 35px;
+    height: 32px;
+    background-color: #1d1d1d;
+  }
+
+  .container__navbar-display > img {
+    width: 45px;
+    height: 45px;
+    border-radius: 100%;
+  }
+
+  .container__navbar-side-display {
+    width: 100%;
+  }
+
+  .container__main-display {
+    margin-top: 20px;
   }
 
   .container__proposing-song-display {
@@ -90,6 +145,6 @@
   }
 
   .container__popular-song-display {
-    height:fit-content
+    height: fit-content;
   }
 }
