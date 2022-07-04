@@ -7,24 +7,25 @@
 }
 
 .container__specific-artist-block img {
-  width: 69px;
+  width: 61px;
   border-radius: 100%;
-  height: 69px;
+  height: 65px;
 }
 
 .container__album-in-songs-justify {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  align-items: center;
+  justify-content: space-between;
   width: 300px;
 }
 
 .container__album-in-songs-justify > .span__artist-song-size {
-  padding-right: 90px;
+  padding: 0 40px;
 }
 
 .container__album-in-songs-justify > .span__songs-size {
-  padding-right: 30px;
+  margin-right: 61px;
 }
 
 @media screen and (min-width: 768px) {
