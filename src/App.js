@@ -4,7 +4,7 @@ import './App.css';
 import Navbar from "./components/navbar";
 import ListArtists from "./components/listartists";
 import ListSongs from "./components/listsongs";
-import picture from "./img/kanye_1.jpg";
+import picture from "./img/kanye.png";
 import profile from "./img/profile.jpeg"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowLeft, faArrowRight } from '@fortawesome/free-solid-svg-icons';
